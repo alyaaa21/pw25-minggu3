@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alat Ajaib Doraemon</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-blue-100 text-gray-700 font-sans">
+    <header class="bg-blue-500 text-white text-center py-6 text-3xl font-bold shadow-lg">Alat Ajaib Doraemon</header>
+    <div class="overflow-x-auto mt-10 px-4">
+        <table class="w-full max-w-4xl mx-auto bg-white rounded-lg shadow-lg overflow-hidden">
+            <thead>
+                <tr class="bg-blue-500 text-white">
+                    <th class="py-4 px-6">Gambar</th>
+                    <th class="py-4 px-6">Nama Alat</th>
+                    <th class="py-4 px-6">Fungsi</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="border-b hover:bg-blue-200">
+                    <td class="py-4 px-6"><img src="assets/img/pintu kemana saja.jpeg" alt="Pintu ke Mana Saja" class="w-20 mx-auto"></td>
+                    <td class="py-4 px-6">Pintu Kemana Saja</td>
+                    <td class="py-4 px-6">Memungkinkan penggunanya pergi ke tempat mana saja.</td>
+                </tr>
+                <tr class="border-b hover:bg-blue-200">
+                    <td class="py-4 px-6"><img src="assets/img/baling bambu.jpeg" alt="Baling-Baling Bambu" class="w-20 mx-auto"></td>
+                    <td class="py-4 px-6">Baling-Baling Bambu</td>
+                    <td class="py-4 px-6">Alat untuk terbang di udara.</td>
+                </tr>
+                <tr class="border-b hover:bg-blue-200">
+                    <td class="py-4 px-6"><img src="assets/img/senter pengecil.jpeg" alt="Senter Pengecil" class="w-20 mx-auto"></td>
+                    <td class="py-4 px-6">Senter Pengecil</td>
+                    <td class="py-4 px-6">Dapat mengecilkan benda atau makhluk hidup.</td>
+                </tr>
+                <tr class="hover:bg-blue-200">
+                    <td class="py-4 px-6"><img src="assets/img/mesin waktu.jpg" alt="Mesin Waktu" class="w-20 mx-auto"></td>
+                    <td class="py-4 px-6">Mesin Waktu</td>
+                    <td class="py-4 px-6">Memungkinkan perjalanan ke masa lalu atau masa depan.</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="flex flex-col items-center mt-10">
+        <h2 class="text-xl font-semibold">Alat Favoritmu?</h2>
+        <form class="bg-white p-6 rounded-lg shadow-lg mt-4 w-80">
+            <label for="gadget" class="block mb-2">Pilih alat favoritmu:</label>
+            <input type="text" id="gadget" name="gadget" placeholder="Masukkan nama alat" class="border border-gray-300 px-4 py-2 rounded-lg w-full">
+            
+            <label for="reason" class="block mt-4 mb-2">Alasan kamu menyukainya:</label>
+            <textarea id="reason" name="reason" placeholder="Jelaskan alasannya" class="border border-gray-300 px-4 py-2 rounded-lg w-full"></textarea>
+            
+            <label for="email" class="block mt-4 mb-2">Email untuk update:</label>
+            <input type="email" id="email" name="email" placeholder="Masukkan email" class="border border-gray-300 px-4 py-2 rounded-lg w-full">
+            
+            <button type="submit" class="mt-4 bg-yellow-400 hover:bg-yellow-500 text-black px-6 py-2 rounded-lg shadow-md transition-all">Kirim</button>
+        </form>
+        <a href="index.html" class="mt-6 bg-yellow-400 hover:bg-yellow-500 text-black px-6 py-3 rounded-lg shadow-md transition-all">Kembali ke Halaman Utama</a>
+    </div>
+    <footer class="bg-blue-500 text-white text-center py-4 mt-10 shadow-lg">&copy; 2025 Doraemon Fanpage</footer>
+</body>
+</html>
